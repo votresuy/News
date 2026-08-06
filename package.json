@@ -1,0 +1,19 @@
+{
+  "name": "market-news-backend",
+  "version": "1.0.0",
+  "description": "Cached backend that fetches Stock/MF/ETF/IPO, Crypto and Forex+Economic Calendar news and pushes formatted summaries to a Telegram channel.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
